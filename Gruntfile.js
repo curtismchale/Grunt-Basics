@@ -19,6 +19,7 @@ module.exports = function(grunt) {
 			dest: 'build/grunt-basics/'
 		}
 	},
+	clean: ['build/grunt-basics/build/**', 'build/grunt-basics/node_modules', 'build/grunt-basics/Gruntfile.js', 'build/grunt-basics/package.json', 'build/grunt-basics/plugin-style.scss' ],
 	watch: {
 		sass: {
 			files: ['*.scss'],
