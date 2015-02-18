@@ -35,4 +35,10 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['sass']);
 
+	grunt.registerTask(
+		'build',
+		'Packages the plugin for release',
+		['copy', 'clean']
+	);
+
 };
